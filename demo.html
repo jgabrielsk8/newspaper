@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" type="image/x-icon" href="newspaper.ico" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+  <style>
+    .newspaper-container {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+    .newspaper-headline {
+      font-family: 'Dela Gothic One', cursive;
+      text-align: center;
+    }
+
+    ul {
+      text-align: right;
+      margin-right: 15px;
+    }
+
+    li {
+      display: inline;
+      padding: 4px;
+    }
+
+    .card-wrapper {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .breaking-news-card {
+      width: 33%;
+      padding: 8px;
+      margin: 8px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+      transition: 0.3s;
+    }
+
+    .breaking-news-card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+    }
+
+    .breaking-news-card-image {
+      width: 100%;
+      height: 315px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+  </style>
+
+  <title>News Paper</title>
+</head>
+
+<body>
+  <div class="newspaper-container">
+    <!-- Wrapper -->
+    <h1 class="newspaper-headline">Jose and Pedro News Paper</h1>
+
+    <div>
+      <!-- Categories -->
+      <ul>
+        <li>
+          <a href="https://www.espn.nl/">Sports</a>
+        </li>
+        <li>
+          World News
+        </li>
+        <li>
+          Culture
+        </li>
+      </ul>
+    </div>
+    <div class="card-wrapper">
+      <!-- Breaking News Wrapper -->
+      <div class="breaking-news-card">
+        <!-- Breaking News Card -->
+        <a href="https://www.itu.int/women-and-girls/girls-in-ict/">
+          <img
+            src="https://www.itu.int/women-and-girls/girls-in-ict/wp-content/uploads/sites/2/2021/04/header-girls-in-ict-banner2.jpg"
+            class="breaking-news-card-image" />
+        </a>
+        <h3>World News</h3> <!-- Category -->
+        <h2>Girls in ICT</h2> <!-- Title -->
+        <p>Today <a href="https://www.actcommodities.com/">ACT</a> Engineers Jose and Pedro gave a master class of HTML
+          and CSS to Girls.</p> <!-- info or date -->
+      </div>
+      <div class="breaking-news-card">
+        <!-- Breaking News Card -->
+        <iframe src="https://www.youtube.com/embed/zOjov-2OZ0E" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          class="breaking-news-card-image"
+          allowfullscreen></iframe>
+        <h3>Technology</h3> <!-- Category -->
+        <h2>Programming!</h2> <!-- Title -->
+        <p>Programming classes in the future will be like having math...</p> <!-- info or date -->
+      </div>
+
+      <div class="breaking-news-card">
+        <!-- Breaking News Card -->
+        <img
+          src="C:\Users\JGHernandez\OneDrive - ACT Commodities\Desktop\newspaper\pictures\yoga.jpg"
+          class="breaking-news-card-image"
+        />
+        <h3>Sports</h3> <!-- Category -->
+        <h2>Bad weather sport</h2> <!-- Title -->
+        <p>Bad weather outside, try doing yoga...</p> <!-- info or date -->
+      </div>
+    </div>
+  </div>
+  <script async src="https://www.tiktok.com/embed.js"></script>
+</body>
+
+</html>
